@@ -8,6 +8,8 @@
 
 ### Fixed
 
+* Added permissions to pr label workflow
+
 ### Removed
 
 ## Previous versions
