@@ -246,7 +246,7 @@ linters:
           - card-data__item__number
           - card-divider--reduced
           - card-image
-          - card-recommandation
+          - card-recommendation
           - card__activity-date
           - card__author
           - card__block
