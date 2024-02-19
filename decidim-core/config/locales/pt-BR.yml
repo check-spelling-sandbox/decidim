@@ -533,7 +533,7 @@ pt-BR:
           newsletter: Receba um boletim informativo ocasional com informações relevantes
           newsletter_title: Permissão de contato
           sign_up: Inscreva-se
-          subtitle: Inscreva-se para participar de discussões e propostas de suporte.
+          subtitle: Inscreva-se para participar de discussões e propostas de supporte.
           tos_agreement: Ao cadastrar-se, aceita %{link}.
           tos_title: Termos de serviço
           username_help: Nome público que aparece em suas postagens. Com o objetivo de garantir o anonimato, pode ser qualquer nome.
@@ -1144,7 +1144,7 @@ pt-BR:
           meetings_explanation: Descubra onde e quando você pode participar de reuniões públicas.
           more_info: Saiba mais
           proposals: Propostas
-          proposals_explanation: Faça propostas, suporte as existentes e promova as mudanças que deseja ver.
+          proposals_explanation: Faça propostas, supporte as existentes e promova as mudanças que deseja ver.
         footer_sub_hero:
           footer_sub_hero_body_html: Vamos construir uma sociedade mais aberta, transparente e colaborativa.<br /> Participe, participe e decida.
           footer_sub_hero_headline: Bem-vindo à plataforma participativa %{organization}.

@@ -469,7 +469,7 @@ pt-BR:
         file_help:
           import:
             explanation: 'Orientação para o arquivo:'
-            message_1: Arquivos CSV, JSON e Excel (xlsx) são suportados
+            message_1: Arquivos CSV, JSON e Excel (xlsx) são supportados
             message_2: Para arquivos CSV, o separador entre colunas deve ser um ponto e vírgula (";")
       help_sections:
         error: Houve um erro ao atualizar as seções de ajuda.

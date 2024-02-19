@@ -461,8 +461,8 @@ linters:
           - extra__date-container
           - extra__month
           - extra__popularity
-          - extra__suport-number
-          - extra__suport-text
+          - extra__support-number
+          - extra__support-text
           - extra__table-list__subcategory
           - extra__time
           - field
