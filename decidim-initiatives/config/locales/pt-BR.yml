@@ -258,7 +258,7 @@ pt-BR:
             update: Atualizar
           form:
             authorizations: Opções de autorização
-            child_scope_threshold_enabled_help_html: 'Esse parâmetro de configuração não suporta votos off-line, permite subescopos e funciona com um manipulador de autorização que associa o escopo ao usuário, certifique-se de selecionar a autorização, nas configurações de autorização. Para que funcione, os escopos precisam ser configurados de forma hierárquica: 1 Pai - N Filhos. Para mais informações sobre como essa configuração funciona, consulte este <a href="https://docs.decidim.org/en/admin/spaces/initiatives" target="_blank">link</a>.'
+            child_scope_threshold_enabled_help_html: 'Esse parâmetro de configuração não supporta votos off-line, permite subescopos e funciona com um manipulador de autorização que associa o escopo ao usuário, certifique-se de selecionar a autorização, nas configurações de autorização. Para que funcione, os escopos precisam ser configurados de forma hierárquica: 1 Pai - N Filhos. Para mais informações sobre como essa configuração funciona, consulte este <a href="https://docs.decidim.org/en/admin/spaces/initiatives" target="_blank">link</a>.'
             only_global_scope_enabled_help_html: Marque este sinalizador se você habilitou "Assinatura de escopo Filho" e configurou o escopo global como seu escopo pai. Habilitando esta possibilidade, a selecção do tipo de iniciativa será ignorada no assistente de criação de iniciativa. Para mais informações sobre como essa configuração funciona, consulte este <a href="https://docs.decidim.org/en/admin/spaces/initiatives/" target="_blank">link</a>.
             options: Opções
           initiative_type_scopes:
@@ -464,7 +464,7 @@ pt-BR:
           section: 'Se solicitado pela organização, por favor imprima e preencha este formulário para enviar quando indicado:'
           signature: Assinatura
         result:
-          initiative_rejected_reason: Esta iniciativa foi rejeitada devido à falta de suporte.
+          initiative_rejected_reason: Esta iniciativa foi rejeitada devido à falta de supporte.
         show:
           area: Área
           confirm: Você vai enviar a iniciativa para um administrador revisá-lo e publicá-lo. Uma vez publicado, você não será capaz de editá-lo. Você tem certeza?
@@ -494,7 +494,7 @@ pt-BR:
           check_initiative_details: Você pode ver os detalhes da iniciativa
           here: Aqui
         more_information: Aqui você tem mais informações sobre o processo de criação da iniciativa.
-        progress_report_body_for: A iniciativa %{title} atingiu os %{percentage}% de suporte necessários.
+        progress_report_body_for: A iniciativa %{title} atingiu os %{percentage}% de supporte necessários.
         progress_report_for: 'Retomar sobre a iniciativa: %{title}'
         promotal_committee_help: Lembre-se de que você deve convidar pelo menos %{member_count} pessoas para o comitê de promotores. Encaminhe o seguinte link para convidar pessoas para o comitê de promotores
         status_change_body_for: 'A iniciativa %{title} mudou seu estado para: %{state}'

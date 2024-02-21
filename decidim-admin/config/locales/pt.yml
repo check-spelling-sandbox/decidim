@@ -368,7 +368,7 @@ pt:
         file_help:
           import:
             explanation: 'Orientação para ficheiro:'
-            message_1: Ficheiros CSV, JSON e Excel (.xlsx) não são suportados
+            message_1: Ficheiros CSV, JSON e Excel (.xlsx) não são supportados
             message_2: Para ficheiros CSV o separador entre coludas deve ser um ponto e vírgula (";")
       help_sections:
         form:

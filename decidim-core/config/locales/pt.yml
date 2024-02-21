@@ -391,7 +391,7 @@ pt:
           newsletter: Receber um boletim informativo ocasional com informações relevantes
           newsletter_title: Permissão de contacto
           sign_up: Inscreva-se
-          subtitle: Inscreva-se para participar em discussões e propostas de suporte.
+          subtitle: Inscreva-se para participar em discussões e propostas de supporte.
           tos_agreement: Ao se inscrever, aceita %{link}.
           tos_title: Termos de Serviço
           username_help: Nome público que aparece nas suas publicações. Com o objetivo de garantir o anonimato, pode ser qualquer nome.
@@ -871,7 +871,7 @@ pt:
           meetings_explanation: Descubra onde e quando pode participar em reuniões públicas.
           more_info: Mais informações
           proposals: Propostas
-          proposals_explanation: Faça propostas, suporte as existentes e promova as mudanças que deseja ver.
+          proposals_explanation: Faça propostas, supporte as existentes e promova as mudanças que deseja ver.
         footer_sub_hero:
           footer_sub_hero_headline: Bem-vindo à plataforma participativa %{organization}.
           register: Registar

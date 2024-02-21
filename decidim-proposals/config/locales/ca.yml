@@ -61,12 +61,12 @@ ca:
           attributes:
             base:
               not_official: No son oficials
-              supported: Han rebut suports o adhesions
+              supported: Han rebut supports o adhesions
         proposals_split:
           attributes:
             base:
               not_official: No son oficials
-              supported: Han rebut suports o adhesions
+              supported: Han rebut supports o adhesions
     models:
       decidim/proposals/accepted_proposal_event: S'ha acceptat la proposta
       decidim/proposals/admin/update_proposal_category_event: S'ha canviat la categoria de la proposta
@@ -77,7 +77,7 @@ ca:
       decidim/proposals/proposal_mentioned_event: Proposta esmentada
       decidim/proposals/publish_proposal_event: Proposta publicada
       decidim/proposals/rejected_proposal_event: S'ha rebutjat la proposta
-      decidim/proposals/voting_enabled_event: Les propostes admeten suports
+      decidim/proposals/voting_enabled_event: Les propostes admeten supports
   activerecord:
     models:
       decidim/proposals/collaborative_draft:
@@ -131,7 +131,7 @@ ca:
           comment: Comentar
           create: Crear
           endorse: Adherir-se
-          vote: Donar suport
+          vote: Donar support
           vote_comment: Votar el comentari
           withdraw: Retirar
         name: Propostes
@@ -142,18 +142,18 @@ ca:
             amendments_wizard_help_text: Text d'ajuda al crear una nova esmena
             announcement: Avís
             attachments_allowed: Permetre adjunts
-            can_accumulate_supports_beyond_threshold: Pot acumular suports més enllà del llindar
+            can_accumulate_supports_beyond_threshold: Pot acumular supports més enllà del llindar
             collaborative_drafts_enabled: Esborranys col·laboratius habilitats
             comments_enabled: Comentaris habilitats
             comments_max_length: Longitud màxima dels comentaris (deixa 0 si vols mantenir la configuració per defecte)
             default_sort_order: Ordre de propostes per defecte
-            default_sort_order_help: '''Per defecte'' vol dir que si els suports estan habilitats, les propostes es mostraran aleatòriament, i si els suports estan bloquejats, aleshores es mostraran de més a menys suports.'
+            default_sort_order_help: '''Per defecte'' vol dir que si els supports estan habilitats, les propostes es mostraran aleatòriament, i si els supports estan bloquejats, aleshores es mostraran de més a menys supports.'
             default_sort_order_options:
               default: Per defecte
               most_commented: Més comentades
               most_endorsed: Amb més adhesions
               most_followed: Amb més seguidores
-              most_voted: Amb més suports
+              most_voted: Amb més supports
               random: Aleatòriament
               recent: Recents
               with_more_authors: Amb més autores
@@ -181,7 +181,7 @@ ca:
             scope_id: Àmbit
             scopes_enabled: Àmbits habilitats
             threshold_per_proposal: Llindar per proposta
-            vote_limit: Límit de suports per participant
+            vote_limit: Límit de supports per participant
           step:
             amendment_creation_enabled: Creació d'esmenes habilitada
             amendment_creation_enabled_help: Les participants poden esmenar les propostes.
@@ -201,13 +201,13 @@ ca:
             creation_enabled: Les participants poden crear propostes
             creation_enabled_readonly: Aquesta opció es desactiva quan actives la funcionalitat de Textos Participatius. Per a pujar propostes com a text participatiu fes clic al botó de Textos Participatius i segueix les instruccions.
             default_sort_order: Ordre per defecte de propostes
-            default_sort_order_help: '''Per defecte'' vol dir que si els suports estan habilitats, les propostes es mostraran aleatòriament, i si els suports estan bloquejats, aleshores es mostraran de més a menys suports.'
+            default_sort_order_help: '''Per defecte'' vol dir que si els supports estan habilitats, les propostes es mostraran aleatòriament, i si els supports estan bloquejats, aleshores es mostraran de més a menys supports.'
             default_sort_order_options:
               default: Per defecte
               most_commented: Més comentades
               most_endorsed: Amb més adhesions
               most_followed: Amb més seguidores
-              most_voted: Amb més suports
+              most_voted: Amb més supports
               random: Aleatòriament
               recent: Recents
               with_more_authors: Amb més autores
@@ -219,7 +219,7 @@ ca:
             suggested_hashtags: Hashtags suggerits a les participants per a noves propostes
             votes_blocked: Suports bloquejats
             votes_enabled: Suports habilitats
-            votes_hidden: Suports ocults (si els suports estan habilitats, marcant aquesta opció s'amagarà el nombre de suports)
+            votes_hidden: Suports ocults (si els supports estan habilitats, marcant aquesta opció s'amagarà el nombre de supports)
     events:
       proposals:
         admin:
@@ -328,10 +328,10 @@ ca:
           email_subject: S'ha actualitzat l'àmbit de la proposta %{resource_title}
           notification_title: L'àmbit de la proposta <a href="%{resource_path}">%{resource_title}</a> ha estat actualitzat per una administradora.
         voting_enabled:
-          email_intro: 'Pots començar a donar suports a les propostes de %{participatory_space_title}! Comença a participar en aquesta pàgina:'
+          email_intro: 'Pots començar a donar supports a les propostes de %{participatory_space_title}! Comença a participar en aquesta pàgina:'
           email_outro: Has rebut aquesta notificació perquè estàs seguint %{participatory_space_title}. Pots deixar de rebre notificacions seguint l'enllaç anterior.
           email_subject: El recolzament a propostes ha començat per a %{participatory_space_title}
-          notification_title: Ja pots començar a <a href="%{resource_path}">donar suports a propostes</a> a <a href="%{participatory_space_url}">%{participatory_space_title}</a>
+          notification_title: Ja pots començar a <a href="%{resource_path}">donar supports a propostes</a> a <a href="%{participatory_space_url}">%{participatory_space_title}</a>
     gamification:
       badges:
         accepted_proposals:
@@ -348,14 +348,14 @@ ca:
         proposal_votes:
           conditions:
             - Navega i passa un temps llegint les propostes d'altres persones
-            - Dóna suport a les propostes amb les que estiguis d'acord o trobis interessants
-          description: Aquest distintiu es concedeix quan dones suport a propostes d'altres persones.
-          description_another: Aquesta participant ha donat suport a %{score} propostes.
-          description_own: Has donat suport a %{score} propostes.
+            - Dóna support a les propostes amb les que estiguis d'acord o trobis interessants
+          description: Aquest distintiu es concedeix quan dones support a propostes d'altres persones.
+          description_another: Aquesta participant ha donat support a %{score} propostes.
+          description_own: Has donat support a %{score} propostes.
           name: Suports a propostes
-          next_level_in: Dóna suport a %{score} propostes més per arribar al següent nivell!
-          unearned_another: Aquesta participant encara no ha donat suport a cap proposta.
-          unearned_own: Encara no has donat suport a cap proposta.
+          next_level_in: Dóna support a %{score} propostes més per arribar al següent nivell!
+          unearned_another: Aquesta participant encara no ha donat support a cap proposta.
+          unearned_own: Encara no has donat support a cap proposta.
         proposals:
           conditions:
             - Tria un espai de participació amb la creació de propostes habilitada que sigui del teu interès
@@ -381,8 +381,8 @@ ca:
         object: propostes
         title: Propostes
       votes:
-        description: Nombre de suports a les propostes
-        object: suports
+        description: Nombre de supports a les propostes
+        object: supports
         title: Suports
     participatory_spaces:
       highlighted_proposals:
@@ -457,7 +457,7 @@ ca:
               md: Markdown
               odt: ODT
             bottom_hint: "(Podràs previsualitzar i ordenar les seccions del document)"
-            document_legend: 'Afegeix un document de menys de 2 MB, cadascuna de les seccions (fins a 3 nivells de profunditat) es convertiran a propostes. Els formats suportats són: %{valid_mime_types}'
+            document_legend: 'Afegeix un document de menys de 2 MB, cadascuna de les seccions (fins a 3 nivells de profunditat) es convertiran a propostes. Els formats supportats són: %{valid_mime_types}'
             title: Afegir document
             upload_document: Puja el document
           publish:
@@ -546,7 +546,7 @@ ca:
             remove_assignment: Desfer assignació
             remove_assignment_confirmation: Segur que vols desfer l'assignació a l'avaluadora d'aquesta proposta?
             valuators: Avaluadores
-            votes_count: Nombre de suports
+            votes_count: Nombre de supports
           update_category:
             invalid: 'Aquestes propostes ja tenien la categoria %{subject_name}: %{proposals}.'
             select_a_category: Si us plau, selecciona una categoria.
@@ -753,7 +753,7 @@ ca:
           comment: Comentari
       proposal_votes:
         create:
-          error: Hi ha hagut un error en donar suport a la proposta.
+          error: Hi ha hagut un error en donar support a la proposta.
       proposals:
         compare:
           continue: Continua
@@ -790,7 +790,7 @@ ca:
           search: Cerca
           state: Estat
           type: Tipus
-          voted: Has donat suport
+          voted: Has donat support
         index:
           click_here: Veure totes les propostes
           collaborative_drafts_list: Accedeix a esborranys col·laboratius
@@ -809,7 +809,7 @@ ca:
           most_commented: Més comentades
           most_endorsed: Amb més adhesions
           most_followed: Amb més seguidores
-          most_voted: Amb més suports
+          most_voted: Amb més supports
           random: Aleatori
           recent: Recent
           with_more_authors: Amb més autores
@@ -847,17 +847,17 @@ ca:
           proposal_accepted_reason: 'Aquesta proposta ha estat acceptada perquè:'
           proposal_in_evaluation_reason: S'està avaluant aquesta proposta
           proposal_rejected_reason: 'Aquesta proposta ha estat rebutjada perquè:'
-          withdraw_btn_hint: Pots retirar la teva proposta si canvies d'opinió, sempre que no hagis rebut cap suport. La proposta no s'esborra, apareixerà a la llista de propostes retirades.
+          withdraw_btn_hint: Pots retirar la teva proposta si canvies d'opinió, sempre que no hagis rebut cap support. La proposta no s'esborra, apareixerà a la llista de propostes retirades.
           withdraw_confirmation_html: Segur que vols retirar aquesta proposta? <br><br><strong>Aquesta acció no es pot desfer!</strong>
           withdraw_proposal: Retirar proposta
         update:
           title: Actualitzar la proposta
         vote_button:
-          already_voted: Ja li has donat suport
-          already_voted_hover: Retira suport
-          maximum_votes_reached: S'ha arribat al límit de suports
-          no_votes_remaining: No hi ha suports restants
-          vote: Dona suport
+          already_voted: Ja li has donat support
+          already_voted_hover: Retira support
+          maximum_votes_reached: S'ha arribat al límit de supports
+          no_votes_remaining: No hi ha supports restants
+          vote: Dona support
           votes_blocked: Suports deshabilitats
         votes_count:
           count:
@@ -865,19 +865,19 @@ ca:
             other: Suports
         voting_rules:
           can_accumulate_supports_beyond_threshold:
-            description: Cada proposta pot acumular més de %{limit} suports
+            description: Cada proposta pot acumular més de %{limit} supports
           minimum_votes_per_user:
-            description: Has de distribuir un mínim de %{votes} suports entre diferents propostes.
-            given_enough_votes: Has donat suports suficients.
-            supports_remaining: Has de donar %{remaining_votes} suport/s més a propostes per a que els teus suports siguin tinguts en compte.
+            description: Has de distribuir un mínim de %{votes} supports entre diferents propostes.
+            given_enough_votes: Has donat supports suficients.
+            supports_remaining: Has de donar %{remaining_votes} support/s més a propostes per a que els teus supports siguin tinguts en compte.
           proposal_limit:
             description: Pots crear fins a %{limit} propostes.
           threshold_per_proposal:
-            description: Perquè les propostes siguin validades han d'arribar a un mínim de %{limit} suports.
+            description: Perquè les propostes siguin validades han d'arribar a un mínim de %{limit} supports.
           title: 'La selecció de propostes es regeix per les següents normes:'
           vote_limit:
-            description: Pots donar suport a %{limit} propostes.
-            votes: Queda/en %{number} suport/s
+            description: Pots donar support a %{limit} propostes.
+            votes: Queda/en %{number} support/s
         wizard_aside:
           back: Torna
           back_from_step_1: Tornar a propostes
@@ -910,7 +910,7 @@ ca:
           title: Versions
       withdraw:
         errors:
-          has_supports: Aquesta proposta no es pot retirar perquè ja compta amb suports.
+          has_supports: Aquesta proposta no es pot retirar perquè ja compta amb supports.
     resource_links:
       copied_from_component:
         proposal_proposal: Propostes relacionades

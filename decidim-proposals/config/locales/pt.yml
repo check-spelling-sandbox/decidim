@@ -56,12 +56,12 @@ pt:
           attributes:
             base:
               not_official: Não são oficiais
-              supported: Receberam suporte ou apoios
+              supported: Receberam supporte ou apoios
         proposals_split:
           attributes:
             base:
               not_official: Não são oficiais
-              supported: Receberam suporte ou apoios
+              supported: Receberam supporte ou apoios
     models:
       decidim/proposals/accepted_proposal_event: Proposta aceite
       decidim/proposals/admin/update_proposal_category_event: Categoria da proposta modificada
@@ -315,7 +315,7 @@ pt:
             - Votar nas propostas que gosta ou que considera interessantes
           description: Este distintivo é concedido quando vota em propostas de outras pessoas.
           description_another: Este participante votou em %{score} propostas.
-          description_own: Você deu suporte a %{score} propostas.
+          description_own: Você deu supporte a %{score} propostas.
           name: Votos da proposta
           next_level_in: Vote em mais %{score} propostas para alcançar o próximo nível!
           unearned_own: Ainda não votou em alguma proposta.

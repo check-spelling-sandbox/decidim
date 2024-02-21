@@ -587,7 +587,7 @@ ca:
           newsletter: Vull rebre un butlletí ocasional amb informació rellevant
           newsletter_title: Permís de contacte
           sign_up: Registra't
-          subtitle: Crea un compte per poder participar en els debats i donar suport a les propostes.
+          subtitle: Crea un compte per poder participar en els debats i donar support a les propostes.
           terms: els termes i condicions d'ús
           tos_agreement: En registrar-te acceptes %{link}.
           tos_title: Termes del servei
@@ -1290,7 +1290,7 @@ ca:
           meetings_explanation: Esbrina on i quan pots participar en trobades públiques.
           more_info: Més informació sobre %{resource_name}
           proposals: Propostes
-          proposals_explanation: Realitza propostes, dóna suport a les ja existents i promociona els canvis que vols veure.
+          proposals_explanation: Realitza propostes, dóna support a les ja existents i promociona els canvis que vols veure.
         footer_sub_hero:
           footer_sub_hero_body_html: Construïm una societat més oberta, transparent i col·laborativa.<br /> Uneix-te, participa i decideix.
           footer_sub_hero_headline: Benvinguda a la plataforma participativa %{organization}.
@@ -1566,7 +1566,7 @@ ca:
     user_update_mailer:
       notify:
         body_1: Reps aquest missatge per informar-te d'una actualització del teu compte.
-        body_2: En el cas que no hagis estat tu qui ha realitzat aquesta actualització, si us plau, inicia la teva sessió i modifica la teva contrasenya. Si no poguessis iniciar la teva sessió, si ús pla, contacte amb el servei de suport a la plataforma.
+        body_2: En el cas que no hagis estat tu qui ha realitzat aquesta actualització, si us plau, inicia la teva sessió i modifica la teva contrasenya. Si no poguessis iniciar la teva sessió, si ús pla, contacte amb el servei de support a la plataforma.
         greetings: Hola,<br/>%{organization_name}<br/><a href="%{organization_url}">%{organization_url}</a>
         hello: Hola %{user}
         main_body: 'S''han modificat els següents detalls: %{updates}.'

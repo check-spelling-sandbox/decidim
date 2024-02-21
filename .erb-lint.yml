@@ -246,7 +246,7 @@ linters:
           - card-data__item__number
           - card-divider--reduced
           - card-image
-          - card-recommandation
+          - card-recommendation
           - card__activity-date
           - card__author
           - card__block
@@ -461,8 +461,8 @@ linters:
           - extra__date-container
           - extra__month
           - extra__popularity
-          - extra__suport-number
-          - extra__suport-text
+          - extra__support-number
+          - extra__support-text
           - extra__table-list__subcategory
           - extra__time
           - field
@@ -601,8 +601,8 @@ linters:
           - hide-for-xlarge
           - hide-for-xlarge-only
           - highlight_alternative
-          - highligted-content-banner
-          - highligted-content-banner__container
+          - highlighted-content-banner
+          - highlighted-content-banner__container
           - hljs
           - hljs-addition
           - hljs-attr
