@@ -601,8 +601,8 @@ linters:
           - hide-for-xlarge
           - hide-for-xlarge-only
           - highlight_alternative
-          - highligted-content-banner
-          - highligted-content-banner__container
+          - highlighted-content-banner
+          - highlighted-content-banner__container
           - hljs
           - hljs-addition
           - hljs-attr
